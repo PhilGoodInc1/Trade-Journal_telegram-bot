@@ -1,0 +1,27 @@
+{
+  "name": "telegram-telegraf-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/mysql": "^2.15.19",
+    "config": "^3.3.6",
+    "mysql": "^2.18.1",
+    "node": "^17.1.0",
+    "telegraf": "^4.4.2",
+    "telegraf-calendar-telegram": "^1.5.8",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts",
+    "start": "node index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
